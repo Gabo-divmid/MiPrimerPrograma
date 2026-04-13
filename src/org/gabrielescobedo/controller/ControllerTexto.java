@@ -35,3 +35,11 @@ public static String extraerIniciales(String nombre, String apellido) {
  public static String aMayusculas(String texto) {
         return texto.toUpperCase();
     }
+
+public static String longitudBinaria(String binario) {
+        if (binario.length() % 2 == 0) {
+            return "Par";
+        } else {
+            return "Impar";
+        }
+    }
