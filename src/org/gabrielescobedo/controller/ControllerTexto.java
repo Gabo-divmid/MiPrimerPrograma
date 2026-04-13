@@ -59,3 +59,7 @@ public static String longitudBinaria(String binario) {
         }
     }
 
+public static String generarEmail(String nombre, String apellido, String dominio) {
+        return nombre.toLowerCase() + "." + apellido.toLowerCase() + "@" + dominio.toLowerCase();
+    }
+}
