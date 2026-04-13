@@ -28,3 +28,6 @@ public static boolean esVocal(char c){
         return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
     }
 
+public static String extraerIniciales(String nombre, String apellido) {
+        return "" + nombre.charAt(0) + apellido.charAt(0);
+    }
