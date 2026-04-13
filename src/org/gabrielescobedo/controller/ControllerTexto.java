@@ -50,3 +50,12 @@ public static String longitudBinaria(String binario) {
         }
         System.out.println();
     }
+
+ public static String validarPassword(String password) {
+        if (password.length() > 8) {
+            return "Segura";
+        } else {
+            return "Insegura";
+        }
+    }
+
