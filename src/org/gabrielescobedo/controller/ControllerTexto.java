@@ -7,8 +7,6 @@ package org.gabrielescobedo.controller;
  */
 public class ControllerTexto {
 
-   public class ConcatenadorNombre {
-
     public static String concatenarNombre(String nombre, String apellido) {
         return nombre + " " + apellido;
     }
