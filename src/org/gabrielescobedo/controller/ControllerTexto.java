@@ -42,4 +42,11 @@ public static String longitudBinaria(String binario) {
         } else {
             return "Impar";
         }
+
+    }
+ public static void repetirPalabra(String palabra, int n) {
+        for (int i = 0; i < n; i++) {
+            System.out.print(palabra + " ");
+        }
+        System.out.println();
     }
