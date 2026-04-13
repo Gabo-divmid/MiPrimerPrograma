@@ -31,3 +31,7 @@ public static boolean esVocal(char c){
 public static String extraerIniciales(String nombre, String apellido) {
         return "" + nombre.charAt(0) + apellido.charAt(0);
     }
+
+ public static String aMayusculas(String texto) {
+        return texto.toUpperCase();
+    }
