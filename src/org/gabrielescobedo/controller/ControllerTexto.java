@@ -23,4 +23,8 @@ public class ControllerTexto {
         }
         return invertido;
     }
+public static boolean esVocal(char c){
+        c = Character.toLowerCase(c);
+        return (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u');
+    }
 
